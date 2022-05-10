@@ -7,14 +7,14 @@ const Description = () => {
         <div>
             {/* 1st block  */}
             <section className='lg:px-40'>
-                <div class="hero min-h-screen">
-                    <div class="hero-content flex-col lg:flex-row">
+                <div className="hero min-h-screen">
+                    <div className="hero-content flex-col lg:flex-row">
                         <div>
-                            <img src={treatment} class="max-w-sm rounded-lg shadow-2xl" />
+                            <img src={treatment} className="max-w-sm rounded-lg shadow-2xl" />
                         </div>
                         <div className='lg:mx-20 lg:pr-10'>
-                            <h1 class="text-5xl font-bold text-accent">Exceptional Dental Care, on Your Terms</h1>
-                            <p class="py-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
+                            <h1 className="text-3xl lg:text-5xl font-bold text-accent">Exceptional Dental Care, on Your Terms</h1>
+                            <p className="py-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
                             <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary uppercase text-white font-bold">Get Started</button>
                         </div>
                     </div>
@@ -23,8 +23,8 @@ const Description = () => {
 
             {/* 2nd block  */}
             <section className='flex justify-centeritems-center mt-20' style={{
-                background:`url(${appointment})`,
-                margin:"40px -48px"
+                background: `url(${appointment})`,
+                margin: "40px -48px"
             }}>
                 <div className='flex-1 hidden lg:block'>
                     <img className='mt-[-150px]' src={doctor} alt="" />

@@ -4,7 +4,7 @@ import marker from '../../assets/icons/marker.svg';
 import phone from '../../assets/icons/phone.svg';
 const Info = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 mt-20'>
             {/* Card  */}
             <div className="card lg:card-side bg-base-100 shadow-xl bg-gradient-to-r from-secondary to-primary text-white p-5">
                 <figure><img src={clock} alt="Album" /></figure>
