@@ -8,7 +8,7 @@ const Services = () => {
 
             <div className='text-center'>
                 <h2 className='text-secondary uppercase font-bold text-2xl my-3'>Our Services</h2>
-                <span className='text-4xl font-medium border-b-4 border-secondary py-2'>Services We Provide</span>
+                <span className='text-3xl lg:text-4xl font-medium border-b-4 border-secondary py-2'>Services We Provide</span>
             </div>
 
 

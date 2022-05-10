@@ -2,7 +2,7 @@ import React from 'react';
 import appointment from '../../assets/images/appointment.png';
 const Contact = () => {
     return (
-        <div className='text-center p-16' style={{
+        <div className='text-center p-8' style={{
             background: `url(${appointment})`,
             margin: "40px -48px"
         }}>
